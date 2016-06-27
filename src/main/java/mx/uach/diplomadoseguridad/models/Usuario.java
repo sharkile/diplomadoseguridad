@@ -15,10 +15,6 @@ import javax.persistence.GeneratedValue;
 import javax.persistence.GenerationType;
 import javax.persistence.Id;
 
-/**
- *
- * @author luis
- */
 @Entity
 public class Usuario implements Serializable {
     
@@ -42,6 +38,7 @@ public class Usuario implements Serializable {
     private String salt;
 
     public Usuario() {
+       // Default constructor
     }
     
     
